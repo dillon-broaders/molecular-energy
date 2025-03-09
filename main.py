@@ -8,6 +8,7 @@ from keras.callbacks import EarlyStopping
 np.set_printoptions(precision = 3)
 print("TensorFlow version:", tf.__version__)
 
+
 # function reads coordinate file and returns list of molecular coordinates
 def read_coordinates(file_name):
     coords, c = [], []
